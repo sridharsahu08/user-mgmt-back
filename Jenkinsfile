@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-            label 'user-management'
-        }
+    agent any
 
 
     stages {
